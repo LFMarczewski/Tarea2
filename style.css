@@ -1,0 +1,54 @@
+/* FUENTES */ 
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif; /*TIPOGRAFÍA*/ background-color: whitesmoke; background-image: url(https://i.ibb.co/m55y0hh/SL-011719-17920-65.jpg);
+}
+
+p{
+    text-align: justify;
+}
+
+h3{
+    text-align: left;
+}
+
+.rosa{
+    text-align: center;
+    background-color: rgb(255, 133, 115);
+    color: white;
+}
+
+.blanco{
+    color: whitesmoke;
+}
+
+
+/* COLORES DEL SITIO */
+
+
+h3{ 
+    color: palevioletred;
+}
+
+li{
+    color: grey;
+}
+
+/* selector de tipo ID */
+
+#xp {
+
+    color: brown;
+}
+
+/* selector avanzado */
+
+/* estamos pidiendo que de "nav", pase a "ul", tome "li", y en los valores "a" modifique su color a blanco */
+
+header nav ul{
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: whitesmoke;
+}
